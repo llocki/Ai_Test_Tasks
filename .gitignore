@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+target/
+
+# Системные файлы
+.DS_Store
+*.log
