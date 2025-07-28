@@ -3,13 +3,13 @@ import static io.restassured.RestAssured.given;
 
 public class TestDTO {
 
-    String BaseUrl = "https://jsonplaceholder.typicode.com/posts/1";
+    String baseUrl = "https://jsonplaceholder.typicode.com/posts/1";
     public Response First (){
             Response response = given()
                     .header("Content-type", "application/json")
                     .and()
                     .when()
-                    .get(BaseUrl);
+                    .get(baseUrl);
             return response;
 
     }
